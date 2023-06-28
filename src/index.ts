@@ -1,7 +1,7 @@
-import express, { Application, NextFunction, Request, Response } from 'express'
+import express, { type Application, type NextFunction, type Request, type Response } from 'express'
 
 const app: Application = express()
-const port: Number = 3000
+const port: number = 3000
 
 // routes
 app.use('/', (req: Request, res: Response, next: NextFunction) => {
